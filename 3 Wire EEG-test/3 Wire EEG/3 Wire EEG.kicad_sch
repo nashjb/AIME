@@ -373,228 +373,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -890,6 +668,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:-9VA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-9VA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-9VA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-9VA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "-9VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDA"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 180.34 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2baf8bdf-593d-4d07-aba6-f4696abcb937")
 	)
 	(junction
 		(at 196.85 102.87)
@@ -910,12 +936,6 @@
 		(uuid "9be7bac1-7886-4422-a08e-6647c0c7954e")
 	)
 	(junction
-		(at 180.34 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e7be015-5fe7-4f9e-9786-43a3e00d1ba6")
-	)
-	(junction
 		(at 215.9 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -929,13 +949,13 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 110.49) (xy 243.84 99.06)
+			(xy 227.33 87.63) (xy 227.33 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25840875-878e-4f11-9986-7f007bf2d3b4")
+		(uuid "0bce1671-6c56-4fda-9ecf-1192ed95643d")
 	)
 	(wire
 		(pts
@@ -949,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 87.63) (xy 210.82 96.52)
+			(xy 213.36 87.63) (xy 213.36 95.25)
 		)
 		(stroke
 			(width 0)
@@ -959,23 +979,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 115.57) (xy 193.04 115.57)
+			(xy 236.22 92.71) (xy 236.22 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "350300e5-cd7f-4773-8c04-767e94f11d11")
-	)
-	(wire
-		(pts
-			(xy 227.33 99.06) (xy 227.33 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c2badb9-50fa-4c8d-a0c7-c572bdbe3e91")
+		(uuid "3a89c7ab-1150-4e5b-90b4-d3d1bac15aaf")
 	)
 	(wire
 		(pts
@@ -986,16 +996,6 @@
 			(type default)
 		)
 		(uuid "4aae0b87-27f4-443c-8404-ce57bbde7b1b")
-	)
-	(wire
-		(pts
-			(xy 232.41 96.52) (xy 232.41 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5111d438-532e-47dc-8ebc-005a18e97cca")
 	)
 	(wire
 		(pts
@@ -1029,27 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 81.28) (xy 238.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c228548-8e80-4be0-8229-951272cacf90")
-	)
-	(wire
-		(pts
-			(xy 238.76 93.98) (xy 243.84 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73472c35-3d63-48c7-b776-37a63bdb6aa7")
-	)
-	(wire
-		(pts
-			(xy 215.9 125.73) (xy 201.93 125.73)
+			(xy 215.9 123.19) (xy 193.04 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 99.06) (xy 232.41 99.06)
+			(xy 227.33 92.71) (xy 236.22 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 81.28) (xy 227.33 81.28)
+			(xy 234.95 87.63) (xy 227.33 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 125.73) (xy 194.31 125.73)
+			(xy 180.34 123.19) (xy 185.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1089,7 +1069,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 106.68) (xy 210.82 104.14)
+			(xy 180.34 111.76) (xy 180.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b75e37d-791d-446e-8570-7d3c74f0894d")
+	)
+	(wire
+		(pts
+			(xy 213.36 106.68) (xy 213.36 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1109,16 +1099,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 96.52) (xy 243.84 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7cfbf8-2a77-48a2-b123-ee7e2f502065")
-	)
-	(wire
-		(pts
 			(xy 196.85 106.68) (xy 196.85 110.49)
 		)
 		(stroke
@@ -1129,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 106.68) (xy 194.31 106.68)
+			(xy 196.85 106.68) (xy 193.04 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1139,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 106.68) (xy 194.31 115.57)
+			(xy 193.04 106.68) (xy 193.04 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 92.71) (xy 215.9 125.73)
+			(xy 215.9 92.71) (xy 215.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1179,23 +1159,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 115.57) (xy 180.34 125.73)
+			(xy 180.34 110.49) (xy 180.34 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3551c1a-6843-4c5a-82d4-9bcc5282053d")
-	)
-	(wire
-		(pts
-			(xy 180.34 110.49) (xy 180.34 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3d8bf24-e7e6-4fb0-817a-af7d3c150d96")
+		(uuid "c9f65d84-f65f-4edb-a711-f5d079f877fa")
 	)
 	(wire
 		(pts
@@ -1209,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 87.63) (xy 210.82 87.63)
+			(xy 196.85 87.63) (xy 213.36 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 115.57) (xy 185.42 115.57)
+			(xy 180.34 111.76) (xy 185.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 106.68) (xy 210.82 106.68)
+			(xy 196.85 106.68) (xy 213.36 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1269,17 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 97.79) (xy 168.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f105675b-1835-45a8-9e49-5888b6f4a3cd")
-	)
-	(wire
-		(pts
-			(xy 196.85 110.49) (xy 243.84 110.49)
+			(xy 196.85 110.49) (xy 232.41 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1297,39 +1257,9 @@
 		)
 		(uuid "fd9e1b71-986d-4b41-85b2-40cea1cd2306")
 	)
-	(label "AVDD"
-		(at 231.14 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "036d1b19-27ea-48f6-a738-ae8e8bf5496b")
-	)
-	(label "Signal"
-		(at 236.22 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dd223a4-5971-4efc-9b21-0a5ae0ea107a")
-	)
-	(label "AVSS"
-		(at 237.49 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e7bfb03-d35b-422a-a503-3a8d7e426963")
-	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 100.33 0)
+		(at 213.36 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1337,9 +1267,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "13072d3e-ca72-4893-9109-9141a1b88da3")
-		(property "Reference" "CPow1"
-			(at 203.454 98.298 0)
+		(property "Reference" "C1"
+			(at 217.17 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1349,8 +1280,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 203.708 101.092 0)
+		(property "Value" "C"
+			(at 217.17 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1361,7 +1292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 211.7852 104.14 0)
+			(at 214.3252 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1372,7 +1303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 100.33 0)
+			(at 213.36 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1383,7 +1314,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 210.82 100.33 0)
+			(at 213.36 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1402,7 +1333,7 @@
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "CPow1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -1418,9 +1349,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "22a0ae43-73b4-4b29-a00d-58aadb8e5c38")
-		(property "Reference" "TLC272"
-			(at 201.93 90.932 0)
+		(property "Reference" "U2"
+			(at 207.01 90.0998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1430,7 +1362,7 @@
 			)
 		)
 		(property "Value" "${SIM.PARAMS}"
-			(at 209.55 92.0049 0)
+			(at 207.01 92.0049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1535,15 +1467,15 @@
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "TLC272")
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 198.12 125.73 90)
+		(lib_id "power:-9VA")
+		(at 234.95 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1551,9 +1483,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3704589f-2631-4815-ba38-e4af4abc073c")
-		(property "Reference" "R2"
-			(at 198.12 123.444 90)
+		(fields_autoplaced yes)
+		(uuid "27a63cb1-25ee-4256-91cc-f6bcc6b3b233")
+		(property "Reference" "#PWR01"
+			(at 234.95 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1562,8 +1496,8 @@
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 198.12 128.016 90)
+		(property "Value" "AVDD"
+			(at 234.95 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1573,7 +1507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 127.508 90)
+			(at 234.95 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,7 +1518,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 125.73 0)
+			(at 234.95 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-9VA\""
+			(at 234.95 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0044d579-6ee9-464e-ac26-6118973989e2")
+		)
+		(instances
+			(project "3 Wire EEG"
+				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 189.23 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3704589f-2631-4815-ba38-e4af4abc073c")
+		(property "Reference" "R4"
+			(at 189.23 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 189.23 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 124.968 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1595,7 +1606,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 125.73 0)
+			(at 189.23 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1614,7 +1625,84 @@
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "R2")
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 241.3 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5478e561-01c5-4885-9c70-086d9839c6b5")
+		(property "Reference" "J1"
+			(at 240.665 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Signal"
+			(at 240.665 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 241.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e48994d0-0e15-40fe-8461-dd9f9bcfba28")
+		)
+		(instances
+			(project "3 Wire EEG"
+				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1630,9 +1718,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "71be29fb-9244-425c-b3ca-006c50528fb0")
-		(property "Reference" "C_HF_LP2"
-			(at 169.164 106.68 0)
+		(property "Reference" "C3"
+			(at 184.15 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1642,8 +1731,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100pF"
-			(at 182.626 106.68 0)
+		(property "Value" "C"
+			(at 184.15 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1695,7 +1784,7 @@
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "C_HF_LP2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1711,9 +1800,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9074275f-2fb6-42c9-9e8f-8fcf99815dc8")
-		(property "Reference" "R_User_Prot1"
-			(at 172.466 94.996 90)
+		(property "Reference" "R3"
+			(at 172.72 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1722,8 +1812,8 @@
 				)
 			)
 		)
-		(property "Value" "200K"
-			(at 172.72 100.33 90)
+		(property "Value" "R"
+			(at 172.72 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1774,7 +1864,7 @@
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "R_User_Prot1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1792,7 +1882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "954f9a8f-c264-4865-9b3c-c7128067e9dc")
-		(property "Reference" "R_pow_prot1"
+		(property "Reference" "R1"
 			(at 223.52 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +1892,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 223.52 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1854,7 +1944,7 @@
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "R_pow_prot1")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1862,7 +1952,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 115.57 90)
+		(at 189.23 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1870,9 +1960,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "984face8-b153-4efc-9f0d-e433c0483e75")
-		(property "Reference" "C_HF_LP1"
-			(at 188.976 112.014 90)
+		(property "Reference" "C2"
+			(at 189.23 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1881,8 +1972,8 @@
 				)
 			)
 		)
-		(property "Value" "100pF"
-			(at 189.23 118.872 90)
+		(property "Value" "C"
+			(at 189.23 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1892,7 +1983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 114.6048 0)
+			(at 193.04 110.7948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,7 +1994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 115.57 0)
+			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1914,7 +2005,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 115.57 0)
+			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1933,15 +2024,15 @@
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "C_HF_LP1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 160.02 97.79 180)
+		(lib_id "power:GNDA")
+		(at 232.41 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1950,9 +2041,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e414954-7eb4-4102-91ee-2b782b9f4b11")
-		(property "Reference" "J2"
-			(at 159.385 92.71 0)
+		(uuid "a0a66309-14a0-4a5a-9f24-cff307a5f2ca")
+		(property "Reference" "#PWR02"
+			(at 238.76 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,18 +2053,19 @@
 				)
 			)
 		)
-		(property "Value" "Electrode"
-			(at 159.385 95.25 0)
+		(property "Value" "GNDA"
+			(at 236.22 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 97.79 0)
+			(at 232.41 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1984,7 +2076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 97.79 0)
+			(at 232.41 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1994,8 +2086,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 160.02 97.79 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 232.41 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2006,12 +2098,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd57e0fe-f599-40ff-8b2c-0e631e5013f5")
+			(uuid "8d9c610e-e5b9-459c-971e-c3b8256613be")
 		)
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "J2")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2029,7 +2121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8583376-8f75-4c84-bc97-c8294b21b4ae")
-		(property "Reference" "R-Decoupling1"
+		(property "Reference" "R2"
 			(at 223.52 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2039,7 +2131,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 223.52 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2091,92 +2183,7 @@
 		(instances
 			(project "3 Wire EEG"
 				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "R-Decoupling1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 248.92 96.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d904071e-2fa7-4d92-b257-0f7cf9c37d2b")
-		(property "Reference" "J3"
-			(at 250.19 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 250.19 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 248.92 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d5eb843-a226-453d-98c4-a19d494a2937")
-		)
-		(pin "2"
-			(uuid "c3bbfff8-b9bd-4c41-b85e-3f31981a1b23")
-		)
-		(pin "3"
-			(uuid "c8612ec6-7fca-4d5d-b229-1b037b57303c")
-		)
-		(instances
-			(project "3 Wire EEG"
-				(path "/5ac350b4-3ce9-42ce-b067-3d13d154488e"
-					(reference "J3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
